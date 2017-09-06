@@ -1,0 +1,9 @@
+*.elf
+*.bin
+*.o
+*~
+\#*
+*#
+*.bak
+*.kate-swap
+*.swp

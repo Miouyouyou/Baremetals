@@ -1,0 +1,9 @@
+ENTRY(it_begins)
+SECTIONS
+{
+ . = 0x02000000;
+ .text : { *(.text) }
+ .data : { *(.data) }
+ .bss  : { *(.bss COMMON) }
+ . = ALIGN(8);
+}
